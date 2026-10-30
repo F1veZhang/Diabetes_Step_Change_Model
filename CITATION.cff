@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this software record and the methodological sources in docs/methods.md."
+title: "Diabetes Step Change Model: joint interval reconstruction"
+version: 0.1.0
+date-released: 2026-10-30
+type: software
+license: MIT
+repository-code: "https://github.com/F1veZhang/Diabetes_Step_Change_Model"
+authors:
+  - family-names: Zhang
+    given-names: Jianyi
+    orcid: "https://orcid.org/0000-0002-7349-1184"
+    affiliation: "Department of Global Health, School of Public Health, Peking University"
+  - family-names: Jia
+    given-names: Zhongwei
+    orcid: "https://orcid.org/0000-0002-5362-7339"
+    affiliation: "Department of Global Health, School of Public Health, Peking University"

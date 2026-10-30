@@ -1,0 +1,10 @@
+{
+  "independent": 0.0,
+  "lowrank_sparse": {
+    "fraction": 0.03,
+    "ratio": 0.5
+  },
+  "nuclear": 0.03,
+  "posthoc": 7,
+  "smooth": 0.1
+}

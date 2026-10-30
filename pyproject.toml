@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diabetes-step-change"
+version = "0.1.0"
+description = "Joint interval reconstruction of population multisystem excess change"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Jianyi Zhang"}, {name = "Zhongwei Jia"}]
+dependencies = ["numpy>=1.24", "pandas>=2.0"]
+keywords = ["longitudinal", "diabetes", "nuclear-norm", "multisystem", "interval"]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.7", "scipy>=1.10"]
+test = ["pytest>=7"]
+
+[project.scripts]
+dscm = "diabetes_step_change.cli:main"
+
+[project.urls]
+Repository = "https://github.com/F1veZhang/Diabetes_Step_Change_Model"
+Issues = "https://github.com/F1veZhang/Diabetes_Step_Change_Model/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
